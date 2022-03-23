@@ -3,19 +3,20 @@
 using namespace std;
 using namespace ariel;
 
-void Notebook::write(int page, int row, int column, Direction direction, string const &str)
+void Notebook::write(int p, int row, int col, Direction dir, string str)
 {
 }
 
-string Notebook::read(int page, int row, int column, Direction direction, int length)
+string Notebook::read(int p, int row, int col, Direction dir, int length)
 {
-    return " ";
+    string ans="";
+    return ans;
 }
 
-void Notebook::erase(int page, int row, int column, Direction direction, int length)
+void Notebook::erase(int p, int row, int col, Direction dir, int length)
 {
 }
 
-void Notebook::show(int page)
+void Notebook::show(int p)
 {
 }
